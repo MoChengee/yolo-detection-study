@@ -5,7 +5,7 @@ model = YOLO("yolov8n.pt")
 
 # 开始训练
 model.train(
-    data="coco8.yaml",
-    epochs=5,
+    data="vehicles.v2-release.yolov8/data.yaml",
+    epochs=50,
     imgsz=640
 )
